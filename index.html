@@ -9,64 +9,66 @@
         <link rel="icon" href="images/tux-logo.svg" sizes="any" type="image/svg+xml">
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>Over Linux</title>
+        <title langdata="titel-start"></title>
         <link href="styles/stijl.css" rel="stylesheet" type="text/css">
     </head>
     <body>
         <header id="intro">
-            <h1 class="intro">Over Linux</h1>
+            <h1 langdata="start-introtitel" class="intro"></h1>
         </header>
         <nav>
             <ul>
-                <li class="logo"><a href="index"><img src="images/tux-logo.svg" height="50px" alt="Logo"></a></li>
-                <li><a id="nav" href="/">Home</a></li>
-                <li><a id="nav" href="downloads">Downloads</a></li>
-                <li><a id="nav" href="informatie">Informatie</a></li>
-                <li><a id="nav" href="contact">Contact</a></li>
+                <li class="logo"><a href="index"><img src="images/tux-logo.svg" height="50px" alt="" langdata="Logo-alt"></a></li>
+                <li><a langdata="nav-start" id="nav" href="/"></a></li>
+                <li><a langdata="nav-downloads" id="nav" href="downloads"></a></li>
+                <li><a langdata="nav-informatie" id="nav" href="informatie"></a></li>
+                <li><a langdata="nav-contact" id="nav" href="contact"></a></li>
+                <li><a id="nav"><select id="lang-selector"><option langdata="taal-nl" value="nl"></option><option langdata="taal-en" value="en"></option></select></a></li>
             </ul>
         </nav>
         <div id="container">
             <article>
-                <h1>Het installeren van Linux</h1>
+                <h1 langdata="start-titel"></h1>
                 <section class="artikel">
-                    <h2 class="intro">Dit artikel gaat over waarom en hoe je Linux moet installeren</h2>
-                    <p class="intro">Linux heeft <strong>veel</strong> voordelen vergeleken met andere bestuurssystemen (zoals macOS van Apple en Windows van Microsoft). Op deze website ga ik je uitleggen waarom en hoe je Linux installeert op je laptop of PC.</p>
-                    <p><img src="images/tux.svg" alt="Tux, de mascotte van Linux" style="width: 20%;"></p>
+                    <h2 langdata="start-art1-titel" class="intro"></h2>
+                    <p langdata="start-art1-inhoud" class="intro"></p>
+                    <p><img langdata="start-art1-foto-alt" src="images/tux.svg" alt="" style="width: 20%;"></p>
                 </section>
                 <section class="artikel">
-                    <h2>Waarom Linux?</h2>
-                    <p>Linux heeft <strong>vele</strong> voordelen. Ik zal er hier een paar opnoemen.</p>
+                    <h2 langdata="start-art2-titel"></h2>
+                    <p langdata="start-art2-inhoud1"></p>
                     <ul>
-                        <li><p>Het is <i>open-source</i>.<br>Dat betekent dat het hele bersturingssysteem openbaar is. Dit maakt het betrouwbaarder aangezien je zelf alles kan lezen en zelfs aanpassen als je wil.</p></li>
-                        <li><p>Het kost bijna niks om te draaien.<br>De vereisten om (meeste) Linux distributies te draaien zijn extreem laag vergeleken met de alternatieven.</p></li>
-                        <li><p>Er zijn erg veel verschillende distributies waar je uit kan kiezen.<br>Bij Windows of macOS heb je alleen verschillende updates van bersturingssystemen (windows 7, 8, 10, 11, etc.). Bij Linux heb je veel verschillende distributies, je kan precies kiezen wat bij jouw situatie past.</p></li>
+                        <li langdata="start-art2-inhoud2"></li>
+                        <li langdata="start-art2-inhoud3"></li>
+                        <li langdata="start-art2-inhoud4"></li>
                     </ul>
-                    <p><img src="images/distributies.webp" alt="Een paar voorbeelden van Linuxdistributies" style="width: 400px;"></p>
+                    <p><img langdata="start-art2-foto-alt" src="images/distributies.webp" alt="" style="width: 400px;"></p>
                 </section>
                 <section class="artikel">
-                    <h2>Hoe installeer je Linux?</h2>
-                    <p>Linux installeren is makkelijker dan je denkt. Het is niet anders dan het installeren van Windows. Hier is een stappenplan:</p>
+                    <h2 langdata="start-art3-titel"></h2>
+                    <p langdata="start-art3-inhoud1"></p>
                     <ul>
-                        <ol><p>1. Haal een USB-stick.<br>Voor meeste distributies is 16GB genoeg.</p></ol>
-                        <ol><p>2. Download een ISO-bestand van je distributie van voorkeur.<br>Let wel op dat het moet passen bij je apparaat (let op x86, arm, amd/intel, 32-bit, 64-bit, etc.).</p></ol>
-                        <ol><p>3. Flash het ISO-bestand op de USB-stick.<br>Dit kan met bijvoorbeeld <a href="https://rufus.ie/nl/">Rufus</a>.</p></ol>
-                        <ol><p>4. Start het apparaat opnieuw op en ga naar de BIOS/UEFI.<br>Op meeste apparaat moet je om dat te doen een toets drukken tijdens het opstraten zoals Delete of F2.</p></ol>
-                        <ol><p>5. Boot in de USB-stick via de BIOS/UEFI.<br>Lees de handleiding van je apparaat als je niet weet hoe dit moet.</p></ol>
-                        <ol><p>6. Volg het installatieproces.<br>Hoe dit moet ligt aan je distributie maar meestal is het voorzelfsprekend.</p></ol>
+                        <ol><p langdata="start-art3-inhoud2"></p></ol>
+                        <ol><p langdata="start-art3-inhoud3"></p></ol>
+                        <ol><p langdata="start-art3-inhoud4"></p></ol>
+                        <ol><p langdata="start-art3-inhoud5"></p></ol>
+                        <ol><p langdata="start-art3-inhoud6"></p></ol>
+                        <ol><p langdata="start-art3-inhoud7"></p></ol>
                     </ul>
-                    <p><img class="usb-stick" src="images/usb.jpg" alt="Een USB-stick waar Linux op geinstaleerd zou kunnen worden" style="width: 300px;"></p>
+                    <p><img langdata="start-art3-foto-alt" class="usb-stick" src="images/usb.jpg" alt="" style="width: 300px;"></p>
                     <p><iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/_Ua-d9OeUOg?si=rB5-nB2BCA-mkHjU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe></p>
                 </section>
             </article>
             <aside>
-                <p id="aside"><strong>Links:</strong></p><br>
-                <p><a href="https://www.linux.org/">Linux community platform</a></p><br>    
-                <p><a href="https://en.wikipedia.org/wiki/Linux">Linux wikipedia</a></p><br>    
-                <p><a href="https://ubuntu.com/">Ubuntu (een veelgebruikte distributie)</a></p><br> 
-                <p><a href="https://bsky.app/profile/did:plc:oio4hkxaop4ao4wz2pp3f4cr/feed/linux"><img src="images/bluesky.png" width="50" alt="Bluesky"></a></p><br> 
-                <p><a href="https://www.reddit.com/r/linux/"><img src="images/reddit.png" width="50" alt="Reddit"></a></p>
+                <p id="aside"><strong langdata="aside-titel"></strong></p><br>
+                <p><a langdata="aside-link1" href="https://www.linux.org/"></a></p><br>    
+                <p><a langdata="aside-link2" href="https://en.wikipedia.org/wiki/Linux"></a></p><br>    
+                <p><a langdata="aside-link3" href="https://ubuntu.com/"></a></p><br> 
+                <p><a href="https://bsky.app/profile/did:plc:oio4hkxaop4ao4wz2pp3f4cr/feed/linux"><img langdata="aside-foto-alt1" src="images/bluesky.png" width="50" alt=""></a></p><br> 
+                <p><a href="https://www.reddit.com/r/linux/"><img langdata="aside-foto-alt2" src="images/reddit.png" width="50" alt=""></a></p>
             </aside>
         </div>
-        <footer><p>&copy; 2025-<span id="currentyear"></span> Sam Le Goff - Alle rechten voorbehouden</p></footer><script src="js/currentyear.js"></script>
+        <footer><p>&copy; 2025-<span id="currentyear"></span><span langdata="footer-copyright"></span></p></footer><script src="js/currentyear.js"></script>
+        <script src="js/lang.js"></script>
     </body>
 </html>
