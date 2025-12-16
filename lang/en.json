@@ -4,6 +4,7 @@
     "titel-informatie":"About Linux - Information",
     "titel-downloads":"About Linux - Downloads",
     "start-introtitel": "About Linux",
+    "titel-404":"Page not found (404)",
     "contact-introtitel": "Contact",
     "informatie-introtitel":"Information",
     "downloads-introtitel":"Downloads",
@@ -65,5 +66,7 @@
     "aside-link3":"Ubuntu (a popular distribution)",
     "aside-foto-alt1":"Bluesky",
     "aside-foto-alt2":"Reddit",
-    "footer-copyright":" Sam Le Goff - All rights reserved"
+    "footer-copyright":" Sam Le Goff - All rights reserved",
+    "404-melding":"Page not found.",
+    "404-statuscode":"(Error: 404)"
 }

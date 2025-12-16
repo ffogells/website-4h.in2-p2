@@ -1,14 +1,22 @@
 <!-- © Sam Le Goff 2025 -->
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <link rel="icon" href="../images/tux-logo.svg" sizes="any" type="image/svg+xml">
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Pagina niet gevonden (404)</title>
-</head>
-<body>
-    <h1>Pagina niet gevonden.</h1>
-    <p>(Statuscode: 404)</p>
-</body>
+    <head>
+        <link rel="icon" href="../images/tux-logo.svg" sizes="any" type="image/svg+xml">
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title langdata="titel-404"></title>
+    </head>
+    <body>
+        <header>
+            <select id="lang-selector" style="display:none">
+                <option value="nl">Nederlands</option>
+                <option value="fr">Français</option>
+                <option value="en">English</option>
+            </select>
+        </header>
+        <h1 langdata="404-melding"></h1>
+        <p langdata="404-statuscode"></p>
+        <script src="../js/lang.js"></script>
+    </body>
 </html>

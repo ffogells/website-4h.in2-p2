@@ -4,6 +4,7 @@
     "titel-informatie":"Over Linux - Informatie",
     "titel-downloads":"Over Linux - Downloads",
     "start-introtitel": "Over Linux",
+    "titel-404":"Pagina niet gevonden (404)",
     "contact-introtitel": "Contact",
     "informatie-introtitel":"Informatie",
     "downloads-introtitel":"Downloads",
@@ -65,5 +66,7 @@
     "aside-link3":"Ubuntu (een veelgebruikte distributie)",
     "aside-foto-alt1":"Bluesky",
     "aside-foto-alt2":"Reddit",
-    "footer-copyright":" Sam Le Goff - Alle rechten voorbehouden"
+    "footer-copyright":" Sam Le Goff - Alle rechten voorbehouden",
+    "404-melding":"Pagina niet gevonden.",
+    "404-statuscode":"(Statuscode: 404)"
 }
