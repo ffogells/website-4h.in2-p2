@@ -1,3 +1,4 @@
+// © Sam Le Goff 2025
 document.addEventListener('DOMContentLoaded', () => {
     const selector = document.getElementById('lang-selector');
 
