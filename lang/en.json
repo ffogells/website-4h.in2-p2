@@ -47,7 +47,7 @@
     "informatie-art1-titel":"Why this website?",
     "informatie-art1-inhoud":"I made this website because i find Linux a great operating system, especially compared to alternatives and i also use it myself on my own laptop and PC, but there isn't much attention for Linux, most people don't even know it exists. This website exists to raise more attention to Linux and i hope more people will start to use it.",
     "informatie-art2-titel":"How is this website made?",
-    "informatie-art2-inhoud":"I manually coded it using <a href=\"https://code.visualstudio.com/\">Visual Studio Code</a> and <a href=\"https://github.com/ffogellmas/website-4h.in2-p2\">GitHub</a>.<br>This website is made by a human.",
+    "informatie-art2-inhoud":"I manually coded it using <a href=\"https://code.visualstudio.com/\">Visual Studio Code</a> and <a href=\"https://github.com/ffogellmas/website-4h.in2-p2\">GitHub</a>. I did take one line from <a href=\"https://stackoverflow.com/a/4562604\">Stackoverflow</a>.<br>This website is made by a human.",
     "informatie-art3-titel":"Who made this site?",
     "informatie-art3-inhoud":"I can answer that, even though it feels weird because i had to type the question myself. I am Sam, you may already have seen my name at the bottom of the page. I made this website for a school assignment. Thats all the interesting stuff you need to know about me.",
     "downloads-titel":"Downloads of programs and other files",
