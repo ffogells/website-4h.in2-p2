@@ -1,6 +1,6 @@
 # Website voor 4h.in2 periode 2
 Dit is een website over het installeren en gebruiken van Linux.
-Gemaakt in opdracht van 4h.in2 in periode 2.
+Gemaakt in opdracht van 4h.in2 tijdens periode 2.
 # Draaien van de website
 ## Clone het project
 Git:
